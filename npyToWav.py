@@ -8,12 +8,12 @@ import soundfile as sf
 
 # 경로 설정 (변경 반영됨)
 mel_path = "/Users/simjuheun/Desktop/myProject/Use_Magenta/MIDItowave/test/0ec264d4f0b5938d9d074e4b252e9d5e.npy"
-checkpoint_path = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/hifi-gan/universal/g_02500000"
-config_path = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/hifi-gan/universal/config.json"
-output_path = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/audioResult/0ec264d4f0b5938d9d074e4b252e9d5e_generated.wav"
+checkpoint_path = "/hifi_gan_Chords/hifi-gan/universal/g_02500000"
+config_path = "/hifi_gan_Chords/hifi-gan/universal/config.json"
+output_path = "/hifi_gan_Chords/audioResult/0ec264d4f0b5938d9d074e4b252e9d5e_generated.wav"
 
 # sys.path 추가 (모델 임포트를 위한 경로)
-sys.path.append("/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/hifi-gan")
+sys.path.append("/hifi_gan_Chords/hifi-gan")
 from models import Generator
 
 

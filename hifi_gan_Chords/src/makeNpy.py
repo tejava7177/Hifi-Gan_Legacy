@@ -3,10 +3,10 @@ import numpy as np
 import librosa
 
 # ✅ 입력 경로
-wav_path = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/dataSource/sourceAudio.wav"
+wav_path = "/dataSource/sourceAudio.wav"
 
 # ✅ 출력 경로
-output_dir = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/dataSource"
+output_dir = "/dataSource"
 file_id = os.path.splitext(os.path.basename(wav_path))[0]
 output_npy = os.path.join(output_dir, f"{file_id}.npy")
 

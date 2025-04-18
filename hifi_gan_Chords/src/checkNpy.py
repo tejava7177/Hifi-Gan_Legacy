@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 # 확인할 .npy 파일 경로
-npy_path = "/Users/simjuheun/Desktop/myProject/Hifi-Gan_Legacy/dataSource/sourceAudio.npy"
+npy_path = "/dataSource/sourceAudio.npy"
 
 # 파일 존재 확인
 if not os.path.isfile(npy_path):
